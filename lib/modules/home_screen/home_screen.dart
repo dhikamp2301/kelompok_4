@@ -73,15 +73,15 @@ class _HomeScreenState extends State<HomeScreen> {
         onTap: tapBottomItem,
         items: [
           bottomMenuItem(
-            "Home",
+            "Menu Utama",
             Icons.home_rounded,
           ),
           bottomMenuItem(
-            "News",
+            "berita",
             Icons.newspaper_rounded,
           ),
           bottomMenuItem(
-            "Menu",
+            "utama Menu",
             Icons.menu_rounded,
           ),
         ],
@@ -94,7 +94,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Column(
         children: [
           Container(
-            color: Colors.blue,
+            color: Colors.green,
             child: Column(
               children: [
                 SizedBox(
@@ -194,7 +194,7 @@ class _HomeScreenState extends State<HomeScreen> {
             padding: const EdgeInsets.all(8),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(8),
-              color: Colors.blue,
+              color: Colors.green,
             ),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
